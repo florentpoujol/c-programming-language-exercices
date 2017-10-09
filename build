@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cppcheck -q --enable=all --inconclusive --suppress=missingIncludeSystem $1.c
+
+gcc $1.c -g -o builds/$1
