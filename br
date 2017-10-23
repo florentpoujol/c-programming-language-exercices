@@ -1,7 +1,4 @@
 #!/bin/bash
 
-#build
 ./build $1
-
-# run
 ./run $1
